@@ -22,7 +22,7 @@ body{
     position: relative;
     flex: 0.1;
     margin: 10px;
-    transition: flex 1s ease-in ;
+    transition: flex .99s ease-in ;
 }
  .slide h3{
      color: white;
@@ -33,10 +33,10 @@ body{
      opacity:0;
  }
 
-   .slide:active {
+   .slide.active {
       flex: 5;
  }
-  .slide:active h3{
+  .slide.active h3{
       opacity: 1;
   }
   @media(max-width: 500px){
